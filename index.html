@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tropiciel - Mapa Grzybów</title>
+  <style>
+    :root {
+      --bg: #f5f7f2;
+      --card: #ffffff;
+      --text: #1f2a1f;
+      --muted: #5a685a;
+      --accent: #2e6b3b;
+      --border: #d7e0d1;
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      background: linear-gradient(180deg, #eef4e9 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 1.9rem;
+      line-height: 1.2;
+    }
+    p {
+      margin: 0 0 12px;
+      line-height: 1.6;
+      color: var(--muted);
+    }
+    .links {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    a.btn {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid var(--accent);
+      color: #ffffff;
+      background: var(--accent);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    a.btn.secondary {
+      background: #ffffff;
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Tropiciel - Mapa Grzybów</h1>
+      <p>
+        Aplikacja pomaga wyszukiwać obszary leśne i gatunki drzew pod wybrane grzyby
+        na mapie. Ułatwia planowanie wypraw terenowych i szybkie sprawdzanie danych
+        w jednym miejscu.
+      </p>
+      <p>
+        Strona została przygotowana jako oficjalny punkt informacyjny aplikacji.
+      </p>
+      <div class="links">
+        <a class="btn" href="https://swkappki.github.io/TropMapGrz/polityka-prywatnosci.html" rel="noopener noreferrer">Polityka prywatności</a>
+        <a class="btn secondary" href="https://github.com/swkappki/TropMapGrz" rel="noopener noreferrer">Repozytorium projektu</a>
+      </div>
+      <footer>
+        Kontakt: swkappki@gmail.com
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
